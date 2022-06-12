@@ -36,8 +36,15 @@ public class Prestador {
 	
 	private String tipoServico;
 	
-	@ManyToOne
-    @JoinColumn(name = "endereco_id")
-	private Prestador prestador;
-
+	private String cep;
+	
+	private String logradouro;
+	
+	private Integer numero;
+	
+	private String bairro;
+	
+	private String cidade;
+	
+	private String estado;
 }

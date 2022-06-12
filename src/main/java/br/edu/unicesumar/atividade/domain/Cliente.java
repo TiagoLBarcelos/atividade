@@ -28,16 +28,22 @@ public class Cliente {
 	
 	private Integer idade;
 	
-	private String sexo;
-	
 	private String telefone;
 	
 	private String email;
 	
 	private String senha;
+		
+	private String cep;
 	
-	@ManyToOne
-    @JoinColumn(name = "endereco_id")
-	private Endereco endereco;
+	private String logradouro;
+	
+	private Integer numero;
+	
+	private String bairro;
+	
+	private String cidade;
+	
+	private String estado;
 	
 }
